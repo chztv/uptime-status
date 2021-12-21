@@ -16,6 +16,8 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
+    'ur632146-b2060feeaaeba653a29292a9',//all
+    /*
     //'m790115571-b593143903ef665fcec0b858',//Webhorizon 新加坡
     'm790115275-bb466e6e7d7c52770b7f4dbf',//Vir圣何塞
     'm790115282-9e927d0e5c3a60ebf24b4dc7',//Vir水牛城
@@ -29,6 +31,7 @@ window.Config = {
     'm790113387-6db8a9a689f0b43635cb6399',//绿云新加坡
     'm790115245-50c06fee7ab81d42a9be3de7',//DO新加坡
     'm790114718-16317deec25e177e1444254e',//Dedipath LA
+    */
   ],
 
   // 是否显示监测站点的链接
