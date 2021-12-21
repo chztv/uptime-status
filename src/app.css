@@ -154,7 +154,7 @@ a {
 }
 
 #uptime .timeline {
-  height: 35px;
+  height: 30px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -162,8 +162,9 @@ a {
 
 #uptime .timeline i {
   flex-grow: 1;
-  margin: 0 1px;
+  margin: 0 2px;
   cursor: pointer;
+  border-radius: 100px;
 }
 
 #uptime .timeline i:hover {
@@ -171,7 +172,9 @@ a {
 }
 
 #uptime .timeline i.ok {
-  background: #9FD8AC;
+  //background: #9FD8AC;
+  --tw-bg-opacity: 1;
+  background-color: rgba(74, 222, 128, var(--tw-bg-opacity));
 }
 
 #uptime .timeline i.none {
