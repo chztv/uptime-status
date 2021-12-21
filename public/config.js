@@ -16,11 +16,11 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
-    'm790115571-b593143903ef665fcec0b858',//Webhorizon 新加坡
+    //'m790115571-b593143903ef665fcec0b858',//Webhorizon 新加坡
     'm790115275-bb466e6e7d7c52770b7f4dbf',//Vir圣何塞
     'm790115282-9e927d0e5c3a60ebf24b4dc7',//Vir水牛城
-    'm790115279-b783391a01df04d6f6c2e826',//Vir西雅图
-    'm782863226-cd42fbef7fa1e036307ab229',//One法国
+    //'m790115279-b783391a01df04d6f6c2e826',//Vir西雅图
+    //'m782863226-cd42fbef7fa1e036307ab229',//One法国
     'm790113352-1c6b4109bd914c9a820dfe88',//AWS日本
     'm781209163-810fafc32b5a705d5c54dc47',//BWG日本
     'm781209163-810fafc32b5a705d5c54dc47',//HH香港
