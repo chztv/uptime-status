@@ -54,9 +54,9 @@ a {
 }
 
 #header .logo {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
-  color: #319848;
+  color: #545454;
 }
 
 #header .navi {
@@ -136,20 +136,30 @@ a {
   background: left center / 14px auto no-repeat;
   padding-left: 20px;
   font-size: 14px;
+  border-radius: 9999px;
+  display: inline-flex;
+  font-weight: 600;
+  padding: 5px 10px;
 }
 
 #uptime .meta .status.ok {
-  background-image: url(./assets/success.svg);
+  /*background-image: url(./assets/success.svg);*/
+  background-color: rgba(187, 247, 208, var(--tw-bg-opacity));
+  --tw-bg-opacity: 1;
   color: #28A745;
 }
 
 #uptime .meta .status.down {
-  background-image: url(./assets/fail.svg);
+  /*background-image: url(./assets/fail.svg);*/
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 240, 138, var(--tw-bg-opacity));
   color: #D9534F;
 }
 
 #uptime .meta .status.unknow {
-  background-image: url(./assets/question.svg);
+  /*background-image: url(./assets/question.svg);*/
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 240, 138, var(--tw-bg-opacity));
   color: #6A737D;
 }
 
